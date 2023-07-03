@@ -196,67 +196,67 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Habitat",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Habitat is a modern android platform that allows users to book, buy or rent or buy the properties it is userfriendly and made using java",
       tags: [
         {
-          name: "react",
+          name: "Java",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "AndroidStudio",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "Firebase",
           color: "pink-text-gradient",
         },
       ],
       image: carrent,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/KaranP666/Habitat-",
     },
     {
-      name: "Job IT",
+      name: "Orphan's Lifeline",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "The charity website that finds the home for orphans. its a simple dynamic website which is based on php and performs simple CRUD operations",
       tags: [
         {
-          name: "react",
+          name: "PHP",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "MY SQL",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "Bootstrap",
           color: "pink-text-gradient",
         },
       ],
       image: jobit,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/KaranP666/Orphan-s-Life-Line",
     },
     {
-      name: "Trip Guide",
+      name: "iNews",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "iNews is news web-application which is based on ReactJS. User can view various category of news like sports, technologies, health , entertainment etc.",
       tags: [
         {
-          name: "nextjs",
+          name: "React",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "NewsAIP",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "Bootstarp",
           color: "pink-text-gradient",
         },
       ],
       image: tripguide,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/KaranP666/iNews-",
     },
   ];
   
