@@ -134,7 +134,7 @@ import {
       iconBg: "#E6DEDD",
       date: "Oct 2019 - Dec 2020",
       points: [
-        "Developing and maintaining applications using JAVA and other related technologies.",
+        "Developing and maintaining applications using JAVA and other related technologies such as Android studio.",
         "Learned advance java concepts such as JAVA AWT,SWING and Servlet and SQL connectivity",
         "Implementing small application on Netbeans IDE.",
         "Participating in code reviews and providing constructive feedback to other developers.",
