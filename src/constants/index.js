@@ -251,7 +251,7 @@ import {
           color: "green-text-gradient",
         },
         {
-          name: "Bootstarp",
+          name: "Bootstrap",
           color: "pink-text-gradient",
         },
       ],
