@@ -16,13 +16,14 @@ import {
     figma,
     docker,
     meta,
-    starbucks,
     tesla,
     shopify,
     carrent,
     jobit,
     tripguide,
     threejs,
+    IIT,
+    crossasyst
   } from "../assets";
   
   export const navLinks = [
@@ -54,7 +55,7 @@ import {
       icon: backend,
     },
     {
-      title: "Content Creator",
+      title: "UI/UX Developer",
       icon: creator,
     },
   ];
@@ -116,55 +117,56 @@ import {
   
   const experiences = [
     {
-      title: "OOP",
-      //company_name: "Starbucks",
-      icon: starbucks,
+      title: "Fullstack Developer Intern",
+      company_name: "IIT Bombay, Nanotechnology",
+      icon: IIT,
       iconBg: "#383E56",
-      date: "March 2019 - June 2019",
+      date: "December 2023 - May 2024",
       points: [
-        "Learned C++",
-        "Learned about classes, object and friend function",
-        "Learned Data structures using C",
+        "Creating React web applications and Integrating Backend Apis",
+        "Creating Mobile applications using Android Studio and Integrating Backend Apis Using Retrofit Client",
+        "Creating Figma Design",
+        "Projects : Medicalalgorithm HQ, OPD management system, Anemia Detection using AI",
       ],
     },
     {
-      title: "Java",
-      //company_name: "Tesla",
-      icon: tesla,
+      title: "Java Developer Intern",
+      company_name: "CrossAsyst",
+      icon: crossasyst,
       iconBg: "#E6DEDD",
-      date: "Oct 2019 - Dec 2020",
+      date: "June 2023 - July 2024",
       points: [
-        "Developing and maintaining applications using JAVA and other related technologies such as Android studio.",
-        "Learned advance java concepts such as JAVA AWT,SWING and Servlet and SQL connectivity",
-        "Implementing small application on Netbeans IDE.",
+        "Learnet how to Develop a Meaven Java Application.",
+        "Connecting Java Application with SQL",
+        "Writing SQL Queries.",
         "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },
     {
       title: "Web Developer",
-      //company_name: "Shopify",
+      company_name: "MakeShift Solutions",
       icon: shopify,
       iconBg: "#383E56",
-      date: "Jan 2021 - Jan 2023",
+      date: "Oct 2023 - Dec 2023",
       points: [
         "Developing and maintaining web applications using HTML CSS JS",
-        "Developing and maintaining web applications using PHP as backend",
+        "Creating Animation using CSS",
         "Implementing responsive design and ensuring cross-browser compatibility.",
         "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },
-    {
-      title: "Full stack Developer",
-      //company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
+    // {
+    //   title: "Full stack Developer",
+    //   //company_name: "Meta",
+    //   icon: meta,
+    //   iconBg: "#E6DEDD",
+    //   date: "Jan 2023 - Present",
+    //   points: [
+    //     "Developing and maintaining web applications using React.js and other related technologies.",
+    //     "Implementing responsive design and ensuring cross-browser compatibility.",
+    //     "Participating in code reviews and providing constructive feedback to other developers.",
+    //   ],
+    // },
   ];
   
   const testimonials = [
