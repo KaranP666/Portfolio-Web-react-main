@@ -26,12 +26,14 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import IIT from "./company/IIT.png"
-import crossasyst from "./company/crossasyst.png"
+import crossasyst from "./company/crossasyst.jpeg"
+import CBIA from "./company/c_bia_logo.jpeg"
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import developer from "./developer.png"
+
 
 export {
   logo,
@@ -64,5 +66,6 @@ export {
   tripguide,
   developer,
   IIT,
-  crossasyst
+  crossasyst,
+  CBIA
 };

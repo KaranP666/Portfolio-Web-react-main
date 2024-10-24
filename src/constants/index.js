@@ -15,15 +15,14 @@ import {
     git,
     figma,
     docker,
-    meta,
-    tesla,
     shopify,
     carrent,
     jobit,
     tripguide,
     threejs,
     IIT,
-    crossasyst
+    crossasyst,
+    CBIA
   } from "../assets";
   
   export const navLinks = [
@@ -116,6 +115,19 @@ import {
   ];
   
   const experiences = [
+    {
+      title: "Application Developer Intern",
+      company_name: "C-BIA Consulting Ltd",
+      icon: CBIA,
+      iconBg: "#383E56",
+      date: "May 2024 - Nov 2024",
+      points: [
+        "Designed intuitive app interfaces using .NET MAUI.",
+        "Developed admin frontends with Angular 18.",
+        "Implemented backend APIs with Next.js 14.",
+        "Utilized app-based routing for seamless API integration.",
+      ],
+    },
     {
       title: "Fullstack Developer Intern",
       company_name: "IIT Bombay, Nanotechnology",
