@@ -33,6 +33,9 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import developer from "./developer.png"
+import avatar from "./avatar.png"
+import prepnest from "./prepnest.png"
+import seedsearch from "./seedsearch.png"
 
 
 export {
@@ -67,5 +70,8 @@ export {
   developer,
   IIT,
   crossasyst,
-  CBIA
+  CBIA,
+  avatar,
+  prepnest,
+  seedsearch
 };

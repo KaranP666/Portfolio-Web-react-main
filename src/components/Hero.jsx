@@ -1,8 +1,9 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
 import { styles } from '../styles';
 import { ComputersCanvas } from './canvas';
 import { developer } from '../assets';
+import { SectionWrapper } from '../hoc';
 
 const Hero = () => {
   const [isMediumOrLarge, setIsMediumOrLarge] = useState(false);
@@ -42,7 +43,7 @@ const Hero = () => {
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
             I develop websites, user<br className="sm:block hidden" />interfaces, and Android applications.
           </p>
-          <img className='md:hidden' src={developer} alt="dev" />
+          <img className='md:hidden lg:hidden' src={developer} alt="dev" />
         </div>
       </div>
 
@@ -64,4 +65,4 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+export default SectionWrapper(Hero, 'home');

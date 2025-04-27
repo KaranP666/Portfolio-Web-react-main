@@ -22,10 +22,16 @@ import {
     threejs,
     IIT,
     crossasyst,
-    CBIA
+    CBIA,
+    prepnest,
+    seedsearch
   } from "../assets";
   
   export const navLinks = [
+    {
+      id: "home",
+      title : "Home"
+    },
     {
       id: "about",
       title: "About",
@@ -33,6 +39,10 @@ import {
     {
       id: "work",
       title: "Work",
+    },
+    {
+      id: "works",
+      title: "Projects",
     },
     {
       id: "contact",
@@ -229,49 +239,32 @@ import {
       ],
       image: carrent,
       source_code_link: "https://github.com/KaranP666/Habitat-",
+      live_demo_link: "",
     },
     {
-      name: "Orphan's Lifeline",
-      description:
-        "The charity website that finds the home for orphans. its a simple dynamic website which is based on php and performs simple CRUD operations",
+      name: "PrepNest",
+      description: "PrepNest is an AI-powered platform for practicing interviews with real-time feedback, voice interaction, and performance tracking.",
       tags: [
-        {
-          name: "PHP",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "MY SQL",
-          color: "green-text-gradient",
-        },
-        {
-          name: "Bootstrap",
-          color: "pink-text-gradient",
-        },
+        { name: "Next.js 14", color: "blue-text-gradient" },
+        { name: "Tailwind CSS", color: "pink-text-gradient" },
+        { name: "OpenAI", color: "green-text-gradient" },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/KaranP666/Orphan-s-Life-Line",
-    },
+      image: prepnest, 
+      source_code_link: "https://github.com/KaranP666/Prepnest",
+      live_demo_link: "https://prepnest.vercel.app/",
+    },    
     {
-      name: "iNews",
-      description:
-        "iNews is news web-application which is based on ReactJS. User can view various category of news like sports, technologies, health , entertainment etc.",
+      name: "SeedSearch",
+      description: "SeedSearch is a platform where founders and innovators can pitch startup ideas, track views, and gain early feedback and visibility to attract potential investors.",
       tags: [
-        {
-          name: "React",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "NewsAIP",
-          color: "green-text-gradient",
-        },
-        {
-          name: "Bootstrap",
-          color: "pink-text-gradient",
-        },
+        { name: "Next.js 14", color: "blue-text-gradient" },
+        { name: "Sanity CMS", color: "green-text-gradient" },
+        { name: "Sentry", color: "pink-text-gradient" },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/KaranP666/iNews-",
-    },
+      image: seedsearch, 
+      source_code_link: "https://github.com/KaranP666/Seed-Search",
+      live_demo_link: "https://seed-search.vercel.app/",
+    },   
   ];
   
   export { services, technologies, experiences, testimonials, projects };

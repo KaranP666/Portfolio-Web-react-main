@@ -6,8 +6,9 @@ import { github } from '../assets';
 import { SectionWrapper } from '../hoc';
 import { projects } from '../constants';
 import { fadeIn,textVariant } from '../utils/motion';
+import { FiArrowUpRight } from 'react-icons/fi';
 
-const ProjectCard = ({index,name,description,tags,image,source_code_link}) => {
+const ProjectCard = ({index,name,description,tags,image,source_code_link,live_demo_link}) => {
   return (
     <motion.div variants={fadeIn("up","spring",index * 0.5,0.75)}>
       <Tilt 
@@ -39,8 +40,15 @@ const ProjectCard = ({index,name,description,tags,image,source_code_link}) => {
               #{tag.name}
             </p>
           ))}
-
         </div>
+        {live_demo_link && (
+          <button
+            onClick={() => window.open(live_demo_link, "_blank")}
+            className="mt-4 flex items-center gap-2 px-4 py-2 rounded-lg bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 text-white font-medium text-sm hover:scale-105 transition-transform duration-300"
+          >
+            Live Demo <FiArrowUpRight className="text-lg" />
+          </button>
+        )}
       </Tilt>
     </motion.div>
   )
@@ -78,4 +86,4 @@ const Works = () => {
   )
 }
 
-export default SectionWrapper(Works,"");
+export default SectionWrapper(Works,"works");
